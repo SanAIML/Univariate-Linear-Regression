@@ -1,4 +1,10 @@
-# Implementation of Univariate Linear Regression
+
+## Implementation of Univariate Linear Regression
+Program for Univariate linear regression using the least squares method.
+Developed by: Sanchita Sandeep
+RegisterNumber: 212224240142
+
+
 ## Aim:
 To implement univariate Linear Regression to fit a straight line using least squares.
 ## Equipment’s required:
@@ -15,6 +21,7 @@ To implement univariate Linear Regression to fit a straight line using least squ
 6.	Obtain the straight line equation Y=mX+b and plot the scatterplot.
 ## Program
 ```
+
 X = np.array(eval(input()))
 Y = np.array(eval(input()))
 X_mean=np.mean(X)
